@@ -1,4 +1,4 @@
-# damiens-number-system
+# Unitriginta
 # Please look at symbols on the Images folder.
 
 # Red sticks indicate groups of things such as 2 and 1 make 3.
