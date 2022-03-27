@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+
+  <style>
+      @import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300;400&family=Roboto:wght@300;400&display=swap');
+      * {
+          font-family: Fredoka;
+          margin: 0;
+          padding: 0;
+      }
+      html {
+      background-image: url("./download.jpg");
+    }
+    header {
+      display: block;
+    }
+    #bar {
+      height: 50px;
+      background-image: linear-gradient(90deg, red, blue, blueviolet, green, limegreen);
+      border-color: red;
+      border-width: 4px;
+      border-style: groove;
+    }
+    button {
+      color: red;
+      font-size: large;
+      font-weight: bolder;
+      border-color: greenyellow;
+      border-width: 5px;
+      border-style: groove;
+      background-color: white;
+    }
+    button:hover {
+      animation-name: but;
+      animation-duration: 250ms;
+      animation-fill-mode: forwards;
+    }
+    @keyframes but {
+      100% {
+        color: blue;
+        border-color: blueviolet;
+        background-color: black;
+      }
+    }
+    header > h1, body {
+      color: deeppink;
+    }
+    #sa1 {
+      margin-left: 30px;
+    }
+    #bd1 {
+        background-image: linear-gradient(90deg, gray, lightgray);
+    }
+    #bd1 div {
+        color: red;
+    }
+    #normcont, #advancecont, #mastcont {
+        margin: 10px;
+    }
+  </style>
+
+  <script>
+
+  </script>
+
+  <head>
+    <title>Unitriginta | Numbers.</title>
+  </head>
+
+  <header>
+    <div id="bar">
+        <div id="numbers">
+          <a href="./h2.html"><button>Go to the home page</button></a>
+          <a id="sa1" target="_blank" href="https://github.com/damienW1/damiens-number-system/blob/check/README.md"><button>View on Github</button></a>
+        </div>
+      </div>
+    <h1>Numbers:</h1>
+  </header>
+
+  <body>
+    <div id="bd1">
+        <div id="norm">
+            Normal
+            <div id="normcont">
+                <img src="./Images/normal/0.png" alt="">
+                <img src="./Images/normal/1.png" alt="">
+                <img src="./Images/normal/2.png" alt="">
+                <img src="./Images/normal/3.png" alt="">
+                <img src="./Images/normal/4.png" alt="">
+                <img src="./Images/normal/5.png" alt="">
+                <img src="./Images/normal/6.png" alt="">
+                <img src="./Images/normal/7.png" alt="">
+                <img src="./Images/normal/8.png" alt="">
+                <img src="./Images/normal/9.png" alt="">
+                <img src="./Images/normal/10.png" alt="">
+            </div>
+        </div>
+        <div id="advace">
+            Advanced
+            <div id="advancecont">
+                <img src="./Images/normal/advanced/11.png" alt="">
+                <img src="./Images/normal/advanced/12.png" alt="">
+                <img src="./Images/normal/advanced/13.png" alt="">
+                <img src="./Images/normal/advanced/14.png" alt="">
+                <img src="./Images/normal/advanced/15.png" alt="">
+            </div>
+        </div>
+        <div id="mast">
+            Master
+            <div id="mastcont">
+                <img src="./Images/normal/advanced/master/16.png" alt="">
+            </div>
+        </div>
+    </div>
+  </body>
+
+  <footer>
+
+  </footer>
+</html>
