@@ -2,12 +2,12 @@
 # Please look at symbols on the Images folder.
 
 # Red sticks indicate groups of things such as 2 and 1 make 3.
+# Normal has numbers 0-10, mainly for begginers or young kids.
+# Advanced has numbers 0-15, for adults, usally you will end here.
+# Master has numbers 0-31, for people who really like math and numbers.
 ## Idea
 I got my idea from just drawing random symbols, and made some stuff.
 
-## Normal has numbers 0-10, mainly for begginers or young kids.
-## Advanced has numbers 0-15, for adults, usally you will end here.
-## Master has numbers 0-31, for people who really like math and numbers.
 ### Numbers that have their own symbol:
 
 0 is just a straight stick.
